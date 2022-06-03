@@ -19,7 +19,7 @@ Once that is set up, run this command in your project directory to set up Vitest
 > ❗️ __When running with TypeScript support enabled, remove comments within `tsconfig.json` or the adder will fail. This is a known limitation of [Preset](https://usepreset.dev/), as it relies upon JSON.parse.__
 
 ```sh
-npx apply svelte-add-vitest # --no-ssh
+npx apply bertybot/svelte-add-vitest # --no-ssh
 ```
 
 After the preset runs,
