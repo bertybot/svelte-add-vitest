@@ -2,23 +2,23 @@
  * An example test suite outlining the usage of
  * `describe()`, `beforeEach()`, `test()` and `expect()`
  *
- * @see https://jestjs.io/docs/getting-started
+ * @see https://vitest.dev/guide/#getting-started
  */
 
-describe('Index', () => {
+ describe('Index', () => {
 
-  let isTestSuitePassing = false;
-
-  beforeEach(() => {
-    isTestSuitePassing = true;
-  });
-
-  describe('isTestSuitePassing', () => {
-
-    test('should be true', () => {
-      expect(isTestSuitePassing).toBe(true);
+    let isTestSuitePassing = false;
+  
+    beforeEach(() => {
+      isTestSuitePassing = true;
     });
-
+  
+    describe('isTestSuitePassing', () => {
+  
+      test('should be true', () => {
+        expect(isTestSuitePassing).toBe(true);
+      });
+  
+    });
+  
   });
-
-});

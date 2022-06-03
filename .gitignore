@@ -35,3 +35,5 @@ package-lock.json
 .idea/
 .vscode/
 .history/
+
+my-app
